@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  padding: 30px;
+  width: 100vh;
+}
+
+.div-user {
+  border: black solid 2px;
+  width: 300px;
+  height: 300px;
+  padding: 70px;
+  margin: 20px;
+  text-align: center;
+  justify-content: center;
+  line-height: 50px;
+  font-size: 1.7rem;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgba(65, 105, 225, 0.808);
+  border-radius: 20px;
+}
+
+.div-user img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid black 1px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
